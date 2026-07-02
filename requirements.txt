@@ -1,0 +1,14 @@
+apex==0.9.10dev
+matplotlib==3.7.2
+numpy==1.24.3
+pandas==2.0.3
+Pillow==9.4.0
+Pillow==12.3.0
+PyYAML==6.0
+PyYAML==6.0.3
+spikingjelly==0.0.0.0.14
+timm==1.0.27
+torch==2.5.1
+torchinfo==1.8.0
+torchvision==0.20.1
+wandb==0.28.0

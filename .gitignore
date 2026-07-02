@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+
+# Data & checkpoints
+data/
+dataset/
+datasets/
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.npy
+*.npz
+checkpoints/
+weights/
+
+# Logs & experiment tracking
+logs/
+*.log
+runs/
+tb_logs/
+tensorboard/
+wandb/
+slurm-*.out
+*.out
+*.err
+output/
+outputs/
+
+# OS
+.DS_Store
