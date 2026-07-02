@@ -1,0 +1,15 @@
+# Core libraries
+torch==1.13.1
+torchvision==0.14.1
+torchaudio==0.13.1
+
+# Model utilities
+timm==0.6.12
+torchinfo==1.7.2
+
+# Research libraries
+spikingjelly==0.0.0.0.12
+
+# Base dependencies
+numpy==1.23.5
+pyyaml==6.0.2
