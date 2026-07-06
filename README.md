@@ -44,12 +44,12 @@ backbone.
 
 Pre-encoding augmentations act on the input before the spiking encoder:
 
-![Pre-encoding pipeline](fig/pre_encoding_pipeline.png)
+![Pre-encoding pipeline](fig/pre_encoding_pipeline.pdf)
 
 Post-encoding augmentations act on the spike trains produced by the first
 spiking encoder, then feed the augmented spikes to the rest of the model:
 
-![Post-encoding pipeline](fig/post_encoding_pipeline.png)
+![Post-encoding pipeline](fig/post_encoding_pipeline.pdf)
 
 ## Methods
 
@@ -61,7 +61,7 @@ spiking encoder):
 - PatchMix
 - IPMix
 - LayerMix
-- RSM (random spike masking, via the Masked Spiking Transformer variant)
+
 
 Post-encoding (applied to the spike feature tensor of shape `(T, B, C, H, W)`
 after the encoder):
@@ -80,6 +80,7 @@ after the encoder):
 - PatchShuffle (post-encoding)
 - PatchDropout (post-encoding)
 - PatchMix (post-encoding)
+- RSM (random spike masking, via the Masked Spiking Transformer variant)
 
 Method names here match the rows of the results table below and the tables in
 the thesis.
