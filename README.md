@@ -44,12 +44,12 @@ backbone.
 
 Pre-encoding augmentations act on the input before the spiking encoder:
 
-![Pre-encoding pipeline](fig/pre_encoding_pipeline.pdf)
+![Pre-encoding pipeline](fig/pre_encoding_pipeline.png)
 
 Post-encoding augmentations act on the spike trains produced by the first
 spiking encoder, then feed the augmented spikes to the rest of the model:
 
-![Post-encoding pipeline](fig/post_encoding_pipeline.pdf)
+![Post-encoding pipeline](fig/post_encoding_pipeline.png)
 
 ## Methods
 
